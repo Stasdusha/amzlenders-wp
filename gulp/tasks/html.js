@@ -9,10 +9,10 @@ gulp.task('html', function () {
     .pipe(panini({
       root: config.src.views + 'pages/',
       layouts: config.src.views + 'layouts/',
-      // pageLayouts: {
-      //   // All pages inside src/pages/blog will use the blog.html layout
-      //   'blog': 'blog'
-      // },
+      pageLayouts: {
+        // All pages inside src/pages/blog will use the blog.html layout
+        'support': 'support'
+      },
       partials: config.src.views + 'partials/',
       data: config.src.views + 'data/',
       helpers: config.src.views + 'helpers/'

@@ -90,6 +90,13 @@
   }
 }
 
+.is-support {
+  &::before {
+    background-image: url(/assets/img/hero_support.png);
+  }
+}
+
+
 
 @media screen and (min-width: 426px){
   .hero {
