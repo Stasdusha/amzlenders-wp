@@ -1,0 +1,69 @@
+.presenter-video {
+  flex-basis: 100%;
+  flex-shrink: 0;
+  max-width: 750px;
+  margin-bottom: 32px;
+
+  &__mov {
+    position: relative;
+    flex-basis: 100%;
+    height: 0;
+    padding-bottom: 58.73%;
+    //position: relative;
+    //width: 100%;
+    //min-width: 756px;
+    //height: 0;
+    //padding-bottom: 58.73%;
+
+    iframe {
+      position: absolute;
+      z-index: 1;
+      top: 50%;
+      left: 50%;
+      width: 100%;
+      height: 100%;
+      transform: translate(-50%, -50%);
+      border: 1px solid #ddd;
+    }
+
+    &::before {
+      content: '';
+      display: inline-block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 0;
+      height: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .presenter-video {
+    margin-bottom: 0;
+
+    &__mov::after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url(/assets/img/ipad_video.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+
+  .presenter-video__mov iframe {
+    width: 62%;
+    height: 78%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .presenter-video {
+    flex-basis: 66%;
+  }
+}

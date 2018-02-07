@@ -1,0 +1,146 @@
+.hero {
+  position: relative;
+  height: 0;
+  margin-top: 56px;
+  padding-bottom: 62.5%;
+  color: $c-white;
+
+  &::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: .4;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    z-index: -2;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #16304c;
+  }
+
+  &__inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    max-width: 80vw;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  &__title {
+    margin-bottom: 20px;
+    font-size: calc(4vw + 10px);
+    font-weight: bold;
+    line-height: 1.25;
+  }
+
+  &__subtitle {
+    display: none;
+    margin-bottom: 30px;
+    font-size: calc(1.25vw + 8px);
+    font-weight: 500;
+    line-height: 1.5;
+  }
+
+  &__socials {
+    display: none;
+  }
+}
+
+.is-home {
+  padding-bottom: 62.5%;
+
+  &::before {
+    background-image: url(/assets/img/hero_home.png);
+  }
+}
+
+.is-process {
+  &::before {
+    background-image: url(/assets/img/hero_funds.png);
+  }
+}
+
+.is-difference {
+  &::before {
+    background-image: url(/assets/img/hero_difference.png);
+  }
+}
+
+.is-about {
+  &::before {
+    background-image: url(/assets/img/hero_about.png);
+  }
+
+  .hero__title {
+    max-width: 700px;
+    margin: auto;
+  }
+}
+
+
+@media screen and (min-width: 426px){
+  .hero {
+    &__subtitle {
+      display: block;
+    }
+
+    &__socials {
+      display: block;
+      position: fixed;
+      top: 50%;
+      padding: 5px;
+      transform: translateY(-50%);
+      border-top-right-radius: 2px;
+      border-bottom-right-radius: 2px;
+      background-color: $c-white;
+
+      .social-icon {
+        display: block;
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .hero {
+    padding-bottom: 34.72%;
+
+    &__title {
+      font-size: 48px;
+    }
+
+    &__subtitle {
+      font-size: 20px;
+    }
+
+    &__inner {
+      //max-width: 790px;
+    }
+  }
+
+  .is-home {
+    padding-bottom: 44%;
+
+    &::before {
+      background-image: url(/assets/img/hero_home.png);
+    }
+  }
+
+
+}

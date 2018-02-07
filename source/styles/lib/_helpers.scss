@@ -1,0 +1,38 @@
+.rounded {
+  border-radius: 50%;
+}
+
+.rounded-4 {
+  border-radius: 4px;
+}
+
+.rouded-6 {
+  border-radius: 6px;
+}
+
+.rounded-8 {
+  border-radius: 8px;
+}
+
+
+.v-center {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+
+.is-shrinked {
+  flex-basis: 0 !important;
+}
+
+.is-autowidth {
+  flex-basis: auto !important;
+}
+
+.no-gutter {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+.no-padding-bottom {
+  padding-bottom: 0 !important;
+}

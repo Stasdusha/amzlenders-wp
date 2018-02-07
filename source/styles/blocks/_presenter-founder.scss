@@ -1,0 +1,41 @@
+.presenter-founder {
+  display: flex;
+  position: relative;
+  flex-wrap: nowrap;
+  align-items: center;
+
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: -100px;
+    width: calc(100% + 200px);
+    height: 500px;
+    transform: translateY(-50%);
+    background-color: $c-light-gray;
+  }
+
+  &__image {
+    display: block;
+  }
+
+  &__info {
+    padding-left: 135px;
+  }
+
+  &__title {
+    margin-bottom: 14px;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 52px;
+  }
+
+  &__description {
+    margin-bottom: 20px;
+    color: $c-primary-light;
+    font-size: 18px;
+    line-height: 28px;
+  }
+}

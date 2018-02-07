@@ -1,0 +1,74 @@
+// COLOR PALETTE
+$c-white: #fff;
+$c-light-gray: #f5f9ff;
+$c-gray: #b3b3b3;
+$c-cold-gray: #adb8c4;
+$c-primary-light: #7f90a3;
+$c-primary: #35495e;
+$c-primary-dark: #233242;
+$c-secondary: #f8981d;
+$c-success-light: #c8db9c;
+$c-success: #91b832;
+$c-success-dark: #739723;
+$c-alert: #d42e00;
+
+// INPUT COLORS
+$input: $c-light-gray;
+$input-border: $c-gray;
+$input-border-focused: $c-primary-light;
+$input-border-error: $c-alert;
+$input-placeholder: $c-gray;
+$input-text: $c-primary-dark;
+$input-label: $c-primary-light;
+
+// BUTTON COLORS
+// primary
+$c-btn-primary: $c-success;
+$c-btn-primary-border: $c-success;
+$c-btn-primary-text: $c-white;
+
+$c-btn-primary-disabled: $c-success-light;
+$c-btn-primary-disabled-border: $c-success-light;
+$c-btn-primary-disabled-text: $c-white;
+
+$c-btn-primary-hovered: $c-success;
+$c-btn-primary-hovered-border: $c-success-dark;
+$c-btn-primary-hovered-text: $c-white;
+
+$c-btn-primary-active: $c-success-dark;
+$c-btn-primary-active-border: $c-success-dark;
+$c-btn-primary-active-text: $c-white;
+
+// outline
+$c-btn-outline: transparent;
+$c-btn-outline-border: $c-primary-light;
+$c-btn-outline-text: $c-primary-dark;
+
+$c-btn-outline-hovered: $c-cold-gray;
+$c-btn-outline-hovered-border: $c-primary-light;
+$c-btn-outline-hovered-text: $c-primary-dark;
+
+$c-btn-outline-active: $c-primary-light;
+$c-btn-outline-active-border: $c-primary-light;
+$c-btn-outline-active-text: $c-primary-dark;
+
+$c-btn-outline-disabled: $c-white;
+$c-btn-outline-disabled-border: $c-primary-light;
+$c-btn-outline-disabled-text: $c-primary-light;
+
+// inverted
+$c-btn-invert: transparent;
+$c-btn-invert-border: $c-primary-light;
+$c-btn-invert-text: $c-white;
+
+$c-btn-invert-hovered: transparent;
+$c-btn-invert-hovered-border: $c-white;
+$c-btn-invert-hovered-text: $c-white;
+
+$c-btn-invert-active: $c-primary-light;
+$c-btn-invert-active-border: $c-primary-light;
+$c-btn-invert-active-text: $c-white;
+
+$c-btn-invert-disabled: transparent;
+$c-btn-invert-disabled-border: $c-primary-light;
+$c-btn-invert-disabled-text: $c-primary-light;

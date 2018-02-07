@@ -1,0 +1,19 @@
+.presenter-tile {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  &__item {
+    display: flex;
+    width: 240px;
+    height: 80px;
+    margin: 7px;
+    background-color: $c-white;
+    box-shadow: 3px 4px 30px 0 rgba(235, 235, 235, .5);
+  }
+
+  &__image {
+    display: block;
+    margin: auto;
+  }
+}

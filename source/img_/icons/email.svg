@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>email</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="email" fill="#91B832" fill-rule="nonzero">
+            <g transform="translate(1.000000, 1.000000)" id="Combined-Shape">
+                <path d="M15,0 C23.2842961,0 30,6.71570388 30,15 C30,23.2842961 23.2842961,30 15,30 C6.71570388,30 0,23.2842961 0,15 C0,6.71570388 6.71570388,0 15,0 Z M22.9718799,9.03125 L7.01343653,9.03125 L14.9862932,15.1948186 L22.9718799,9.03125 Z M6.95816464,10.7194548 L6.95816464,19.0785133 L11.6557558,14.3509777 L6.95816464,10.7194548 Z M6.97771439,21 L6.97771439,20.9999346 L22.984545,20.9999346 L17.2210702,15.1998516 L14.9856437,16.9251828 L12.74658,15.1943611 L6.97771439,21 Z M23.0137073,19.0882525 L23.0137073,10.7288672 L18.3126738,14.3572526 L23.0137073,19.0882525 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

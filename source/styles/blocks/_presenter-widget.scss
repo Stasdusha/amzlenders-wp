@@ -1,0 +1,31 @@
+.presenter-widget {
+  display: table;
+  padding-top: 16px;
+
+  &__image {
+    display: table-cell;
+    width: 36px;
+    height: 36px;
+    margin-top: 24px;
+    margin-right: 30px;
+  }
+
+  &__info {
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+  }
+
+  &__title {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 32px;
+    vertical-align: middle;
+  }
+
+  &__description {
+    color: $c-primary-light;
+    font-size: 18px;
+    line-height: 28px;
+  }
+}

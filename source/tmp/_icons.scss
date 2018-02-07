@@ -1,0 +1,27 @@
+@function encodecolor($string) {
+  @if type-of($string) == 'color' {
+    $hex: str-slice(ie-hex-str($string), 4);
+    $string: unquote("#{$hex}");
+  }
+  $string: '%23' + $string;
+  @return $string;
+}
+
+.icon-checkbox {
+  $color: encodecolor('currentColor');
+  background-image: url('icons.svg#icon-checkbox');
+  background-repeat: no-repeat;
+  background-position: 1rem center;
+  background-size: (19/19)*1em (19/10)*1rem;
+}
+
+@mixin icon-checkbox($color: 'currentColor') {
+  $color: encodecolor($color);
+  background-image: url('icons.svg#icon-checkbox');
+  background-repeat: no-repeat;
+  background-position: 1rem center;
+  background-size: (19/19)*1em (19/10)*1rem;
+}
+
+
+

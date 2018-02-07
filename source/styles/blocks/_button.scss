@@ -1,0 +1,67 @@
+.btn {
+  display: inline-block;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  height: $btn-default;
+  padding: 0 16px;
+  border: 1px solid $c-btn-primary;
+  border-radius: 6px;
+  background-color: $c-btn-primary;
+  color: $c-btn-primary-text;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  line-height: $btn-default;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  &:hover {
+    border-color: $c-btn-primary-hovered-border;
+  }
+
+  &:active {
+    background-color: $c-btn-primary-active;
+  }
+
+  &:disabled {
+    background-color: $c-btn-primary-disabled;
+  }
+
+  &-large {
+    height: $btn-large;
+    padding-right: 24px;
+    padding-left: 24px;
+    font-size: 17px;
+    line-height: $btn-large;
+  }
+
+  &-outline {
+    border-color: $c-btn-outline-border;
+    background-color: $c-btn-outline;
+    color: $c-btn-outline-text;
+
+    &:hover {
+      border-color: $c-btn-outline-border;
+      background-color: $c-cold-gray;
+    }
+
+    &:active {
+      border-color: $c-btn-outline-border;
+      background-color: $c-btn-outline-active;
+    }
+  }
+
+  &-invert {
+    border-color: $c-btn-invert-border;
+    background-color: $c-btn-invert;
+
+    &:hover {
+      border-color: $c-white;
+    }
+
+    &:active {
+      background-color: $c-btn-invert-active;
+    }
+  }
+}

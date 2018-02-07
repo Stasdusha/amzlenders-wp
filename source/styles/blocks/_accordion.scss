@@ -1,0 +1,71 @@
+.accordion {
+  display: flex;
+  flex-direction: column;
+
+  &__item {
+    display: block;
+    margin-bottom: 14px;
+    padding-right: 24px;
+    padding-left: 24px;
+    border-radius: 7px;
+    background-color: #f8f8f8;
+    color: $c-primary-light;
+    cursor: pointer;
+  }
+
+  &__title {
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.56;
+    user-select: none;
+
+    &::before {
+      content: '';
+      display: inline-block;
+      width: 19px;
+      height: 19px;
+      margin-top: 2px;
+      margin-right: 20px;
+      background-image: url(/assets/img/icons/plus.svg);
+      background-repeat: no-repeat;
+      vertical-align: text-top;
+    }
+  }
+
+  &__control {
+    display: none;
+
+    &:checked {
+      ~ .accordion__content {
+        display: block;
+      }
+
+      ~ .accordion__title::before {
+        background-image: url(/assets/img/icons/minus.svg);
+      }
+    }
+  }
+
+  &__content {
+    display: none;
+    margin-bottom: 22px;
+    padding-right: 39px;
+    padding-left: 39px;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.56;
+    user-select: none;
+    will-change: auto;
+  }
+
+  &--inverse {
+    .accordion__item {
+      background-color: $c-white;
+    }
+  }
+}

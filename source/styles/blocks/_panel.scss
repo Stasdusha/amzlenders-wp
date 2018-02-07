@@ -1,0 +1,55 @@
+.panel {
+  position: relative;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, .2);
+  color: $c-primary-light;
+
+  &.is-bigger {
+    margin-top: -56px;
+    margin-bottom: -56px;
+  }
+
+  &__content {
+    margin-bottom: 40px;
+  }
+
+  &__title {
+    margin-bottom: 30px;
+    color: $c-primary;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 45px;
+    text-align: center;
+  }
+
+  &__subtitle {
+    margin-bottom: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  &__extrainfo {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  &__description {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  &__action {
+    text-align: center;
+  }
+
+  &--inverse {
+    background-color: $c-primary;
+    color: $c-white;
+
+    .panel__title {
+      color: $c-white;
+    }
+  }
+}
+

@@ -1,0 +1,52 @@
+@font-face {
+  font-family: '<%= fontName %>';
+  font-style: normal;
+  font-weight: normal;
+  src: url('<%= fontPath %><%= fontName %>.woff') format('woff'), url('<%= fontPath %><%= fontName %>.ttf') format('truetype');
+}
+
+<% _.each(glyphs, function(glyph) { %>$<%= className %>-<%= glyph.name %>: '\<%= glyph.unicode[0].charCodeAt(0).toString(16).toUpperCase() %>';
+<% }); %>
+
+%<%= className %> {
+  display: inline-block;
+  width: 1em;
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-family: '<%= fontName %>';
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* opacity: .8; */
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  text-align: center;
+  text-decoration: inherit;
+  text-rendering: auto;
+  text-transform: none;
+  speak: none;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.<%= className %>,
+[class^="icon-"],
+[class*=" icon-"] {
+  @extend %<%= className %>;
+}
+
+<% _.each(glyphs, function(glyph) { %>
+%<%= className %>-<%= glyph.name %> {
+  &::before {
+    content: $<%= className %>-<%= glyph.name %>;
+  }
+}
+
+.<%= className %>-<%= glyph.name %> {
+  @extend %<%= className %>-<%= glyph.name %>;
+}
+<% }); %>

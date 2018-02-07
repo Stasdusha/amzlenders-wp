@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="19px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>plus</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="plus">
+            <g>
+                <circle id="Oval-7" stroke="#35495E" cx="9.5" cy="9.5" r="9"></circle>
+                <rect id="Rectangle-15" fill="#35495E" x="5" y="9" width="9" height="1" rx="0.5"></rect>
+                <rect id="Rectangle-15" fill="#35495E" transform="translate(9.500000, 9.500000) rotate(90.000000) translate(-9.500000, -9.500000) " x="5" y="9" width="9" height="1" rx="0.5"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

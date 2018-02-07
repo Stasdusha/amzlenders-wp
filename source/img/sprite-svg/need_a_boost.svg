@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>need_a_boost</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M42,21 L34,21 C32.8954305,21 32,21.8954305 32,23 L32,61 C32,62.1045695 32.8954305,63 34,63 L42,63 C43.1045695,63 44,62.1045695 44,61 L44,23 C44,21.8954305 43.1045695,21 42,21 Z" id="path-1"></path>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FB8A69" offset="0%"></stop>
+            <stop stop-color="#FA9800" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="need_a_boost" fill-rule="nonzero">
+            <g id="image-/-need_a_boost" transform="translate(2.000000, 4.000000)">
+                <g id="noun_1153645_cc-copy-2">
+                    <g id="Group">
+                        <path d="M10,50 L2,50 C1.44771525,50 1,50.4477153 1,51 L1,61 C1,61.5522847 1.44771525,62 2,62 L10,62 C10.5522847,62 11,61.5522847 11,61 L11,51 C11,50.4477153 10.5522847,50 10,50 Z" id="Shape" stroke="#35495E" stroke-width="2"></path>
+                        <path d="M26,35 L18,35 C17.4477153,35 17,35.4477153 17,36 L17,61 C17,61.5522847 17.4477153,62 18,62 L26,62 C26.5522847,62 27,61.5522847 27,61 L27,36 C27,35.4477153 26.5522847,35 26,35 Z" id="Shape" stroke="#35495E" stroke-width="2"></path>
+                        <g id="Shape">
+                            <use fill="#35495E" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <path stroke="#35495E" stroke-width="2" d="M42,22 L34,22 C33.4477153,22 33,22.4477153 33,23 L33,61 C33,61.5522847 33.4477153,62 34,62 L42,62 C42.5522847,62 43,61.5522847 43,61 L43,23 C43,22.4477153 42.5522847,22 42,22 Z"></path>
+                        </g>
+                        <path d="M52.4561395,0.874687715 L42.6941061,12.7285855 C41.9919232,13.5812361 42.1139014,14.8416776 42.966552,15.5438605 C43.3246341,15.8387516 43.7740877,16 44.2379665,16 L48,16 L48,61 C48,62.1045695 48.8954305,63 50,63 L58,63 C59.1045695,63 60,62.1045695 60,61 L60,16 L63.7620335,16 C64.866603,16 65.7620335,15.1045695 65.7620335,14 C65.7620335,13.5361212 65.600785,13.0866676 65.3058939,12.7285855 L55.5438605,0.874687715 C54.8416776,0.0220371209 53.5812361,-0.0999410927 52.7285855,0.60224175 C52.6292137,0.684077336 52.5379751,0.775315932 52.4561395,0.874687715 Z" id="Shape" fill="url(#linearGradient-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

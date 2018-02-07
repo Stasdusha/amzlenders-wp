@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="110px" height="80px" viewBox="0 0 110 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>clear_helpful</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FB8A69" offset="0%"></stop>
+            <stop stop-color="#FA9800" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="clear_helpful">
+            <g id="Group-11">
+                <path d="M78,42 L99,42 L99,44 C99,47.3137085 101.686292,50 105,50 L108,50 L108,62 C108,64.209139 106.209139,66 104,66 L98,66 L98,74 L88,66 L78,66 C75.790861,66 74,64.209139 74,62 L74,46 C74,43.790861 75.790861,42 78,42 Z" id="Rectangle-9" fill="url(#linearGradient-1)" transform="translate(91.000000, 58.000000) scale(-1, 1) translate(-91.000000, -58.000000) "></path>
+                <path d="M30,10 L76,10 C78.209139,10 80,11.790861 80,14 L80,43 C80,45.209139 78.209139,47 76,47 L65,47 L65,55 L55,47 L30,47 C27.790861,47 26,45.209139 26,43 L26,14 C26,11.790861 27.790861,10 30,10 Z" id="Rectangle-9" stroke="#35495E" stroke-width="2"></path>
+                <path d="M35,27 L71,27 C71.5522847,27 72,27.4477153 72,28 L72,28 C72,28.5522847 71.5522847,29 71,29 L35,29 C34.4477153,29 34,28.5522847 34,28 L34,28 C34,27.4477153 34.4477153,27 35,27 Z" id="Rectangle-path" fill="#35495E" fill-rule="nonzero"></path>
+                <path d="M35,21 L71,21 C71.5522847,21 72,21.4477153 72,22 L72,22 C72,22.5522847 71.5522847,23 71,23 L35,23 C34.4477153,23 34,22.5522847 34,22 L34,22 C34,21.4477153 34.4477153,21 35,21 Z" id="Rectangle-path" fill="#35495E" fill-rule="nonzero"></path>
+                <path d="M35,33 L49,33 C49.5522847,33 50,33.4477153 50,34 L50,34 C50,34.5522847 49.5522847,35 49,35 L35,35 C34.4477153,35 34,34.5522847 34,34 L34,34 C34,33.4477153 34.4477153,33 35,33 Z" id="Rectangle-path" fill="#35495E" fill-rule="nonzero"></path>
+                <path d="M7,29 L23,29 L23,44 C23,47.3137085 25.6862915,50 29,50 L42,50 L42,55 C42,57.209139 40.209139,59 38,59 L24,59 L14,67 L14,59 L7,59 C4.790861,59 3,57.209139 3,55 L3,33 C3,30.790861 4.790861,29 7,29 Z" id="Rectangle-9" fill="#35495E"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,27 @@
+.faqs {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 690px;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  &__title {
+    margin-right: auto;
+    font-size: 33px;
+    font-weight: bold;
+    line-height: 60px;
+  }
+
+  &__items {
+    margin-bottom: 26px;
+  }
+
+  &__action {
+    text-align: center;
+  }
+}

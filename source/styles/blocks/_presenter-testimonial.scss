@@ -1,0 +1,48 @@
+.presenter-testimonial {
+  display: inline-flex;
+  box-sizing: border-box;
+  flex: 1 1 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 360px;
+  margin-bottom: 40px;
+  padding: 40px;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, .2);
+
+  &:not(:last-of-type) {
+    margin-right: 44px;
+  }
+
+  &__image {
+    display: inline-block;
+    margin-bottom: 24px;
+  }
+
+  &__info {
+    min-width: 100%;
+    text-align: center;
+  }
+
+  &__title {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 32px;
+  }
+
+  &__description {
+    margin-bottom: 16px;
+    color: #b6c6d6;
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  &__extrainfo {
+    color: $c-primary-light;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+
+
+}

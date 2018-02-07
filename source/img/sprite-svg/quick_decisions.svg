@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="110px" height="80px" viewBox="0 0 110 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>quick_decisions</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M55,6 C36.2521758,6 21,21.2521758 21,40 C21,58.7478242 36.2521758,74 55,74 C73.7478242,74 89,58.7478242 89,40 C89,21.2521758 73.7478242,6 55,6 Z" id="path-1"></path>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#FB8A69" offset="0%"></stop>
+            <stop stop-color="#FA9800" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="quick_decisions">
+            <g id="noun_1015012_cc">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <path stroke="#35495E" stroke-width="2" d="M55,7 C36.8044606,7 22,21.8044606 22,40 C22,58.1955394 36.8044606,73 55,73 C73.1955394,73 88,58.1955394 88,40 C88,21.8044606 73.1955394,7 55,7 Z"></path>
+                <path d="M73,40 C73,37.5866886 71.122005,35.6034067 68.7981313,36 L59,36 L59,20.1486232 C59.2842137,17.8747192 57.3483776,16 55,16 L55,5 L89,5 L89,40 L73,40 Z" id="Combined-Shape" fill="#35495E" mask="url(#mask-2)"></path>
+                <path d="M69,38 L57,38 L57,20 C57.1935484,18.9553039 56.2547926,18 55,18 C53.9387558,18 53,18.9553039 53,20 L53,40 C53,41.0446961 53.9387558,42 55,42 L69,42 C70.0612442,42 71,41.0446961 71,40 C71,38.6878329 70.0612442,37.732529 69,38 Z" id="Path" fill="url(#linearGradient-3)" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

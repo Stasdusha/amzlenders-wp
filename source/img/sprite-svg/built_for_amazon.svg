@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="110px" height="80px" viewBox="0 0 110 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>built_for_amazon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M32,5 C30.645752,5.04166667 29.9790853,5.70833333 30,7 C29.9686279,8.2218222 29.9686279,12.7150828 30,14 C29.9790853,15.3333333 30.645752,16 32,16 L32,20 L17,20 L17,15.6879518 C17,7.39031171 23.6472373,0.546489231 32,-2.98983061e-13 L32,5 Z" id="path-1"></path>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FB8A69" offset="0%"></stop>
+            <stop stop-color="#FA9800" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="built_for_amazon">
+            <g id="noun_1357597_cc">
+                <g id="Group" transform="translate(39.000000, 16.000000)">
+                    <path d="M15,5 C13.645752,5.04166667 12.9790853,5.70833333 13,7 C12.9686279,8.2218222 12.9686279,12.7150828 13,14 C12.9790853,15.3333333 13.645752,16 15,16 L15,20 L1.90680804e-14,20 L1.90680804e-14,15.6879518 C1.90680804e-14,7.39031171 6.64723733,0.546489231 15,-2.98983061e-13 L15,5 Z" id="Shape" fill="#35495E"></path>
+                    <g id="Shape" transform="translate(24.500000, 10.000000) scale(-1, 1) translate(-24.500000, -10.000000) ">
+                        <use fill="#35495E" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <path stroke="#35495E" stroke-width="2" d="M31,4.13935911 L31,1.10480394 C23.6426739,2.10318975 18,8.31257044 18,15.6879518 L18,19 L31,19 L31,16.8813862 C29.7067161,16.5478815 28.9760738,15.5272085 29.0002979,14.0244084 C28.9685234,12.723006 28.9685234,8.21305859 29.0001311,7.01618991 C28.975748,5.51032341 29.7066217,4.49552133 31,4.13935911 Z"></path>
+                    </g>
+                    <rect id="Rectangle" fill="#35495E" x="15" y="7" width="2" height="7" rx="1"></rect>
+                    <path d="M1.90680804e-14,22 L32,22 L32,32.3041952 C32,40.9398483 24.8030763,48 16.0000027,48 C7.19127956,48 1.90680804e-14,40.9402694 1.90680804e-14,32.3041952 L1.90680804e-14,22 Z" id="Shape" fill="url(#linearGradient-2)"></path>
+                </g>
+                <path d="M44.3204855,7.71107824 C30.7745583,12.1889555 21,24.9529925 21,40 C21,58.7776815 36.2223185,74 55,74 C73.7776815,74 89,58.7776815 89,40 C89,21.2223185 73.7776815,6 55,6" id="Oval" stroke="#35495E" stroke-width="2" stroke-linecap="round"></path>
+                <path d="M55,5 L55,5 C55.5522847,5 56,5.44771525 56,6 L56,16 L54,16 L54,6 C54,5.44771525 54.4477153,5 55,5 Z" id="Rectangle-2" fill="#35495E"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>card</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FB8A69" offset="0%"></stop>
+            <stop stop-color="#FA9800" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="card">
+            <g transform="translate(1.000000, 9.000000)">
+                <path d="M54.5148148,17 L2.81851852,17 L2.81851852,35 C2.81851852,36.1045695 3.64513353,37 4.66481481,37 L38.8212963,37 L38.8212963,39 L4.66481481,39 C2.62545224,39 0.972222222,37.209139 0.972222222,35 L0.972222222,4 C0.972222222,1.790861 2.62545224,2.22044605e-15 4.66481481,3.55271368e-15 L52.6685185,3.55271368e-15 C54.7078811,3.10862447e-15 56.3611111,1.790861 56.3611111,4 L56.3611111,24 L54.5148148,24 L54.5148148,17 Z M54.5148148,9 L54.5148148,4 C54.5148148,2.8954305 53.6881998,2 52.6685185,2 L4.66481481,2 C3.64513353,2 2.81851852,2.8954305 2.81851852,4 L2.81851852,9 L54.5148148,9 Z M7.51111111,22 L40.5907407,22 C41.1430255,22 41.5907407,22.4477153 41.5907407,23 C41.5907407,23.5522847 41.1430255,24 40.5907407,24 L7.51111111,24 C6.95882636,24 6.51111111,23.5522847 6.51111111,23 C6.51111111,22.4477153 6.95882636,22 7.51111111,22 Z M7.51111111,28 L20.2814815,28 C20.8337662,28 21.2814815,28.4477153 21.2814815,29 C21.2814815,29.5522847 20.8337662,30 20.2814815,30 L7.51111111,30 C6.95882636,30 6.51111111,29.5522847 6.51111111,29 C6.51111111,28.4477153 6.95882636,28 7.51111111,28 Z" id="card-body" fill="#35495E" fill-rule="nonzero"></path>
+                <g id="badge" transform="translate(41.000000, 26.000000)">
+                    <rect id="Rectangle-2" fill="url(#linearGradient-1)" x="0.722222222" y="0" width="25.2777778" height="26" rx="4"></rect>
+                    <text id="48" font-family="Hind-Bold, Hind" font-size="14" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="5.61211111" y="18">48</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

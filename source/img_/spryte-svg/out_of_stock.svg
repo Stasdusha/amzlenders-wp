@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>out_of_stock</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FB8A69" offset="0%"></stop>
+            <stop stop-color="#FA9800" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="out_of_stock">
+            <g id="image-/-out_of_stock" transform="translate(-2.000000, -14.000000)">
+                <g id="noun_1093676_cc" transform="translate(37.500000, 43.000000) rotate(-20.000000) translate(-37.500000, -43.000000) translate(11.000000, 7.000000)">
+                    <path d="M9,70 C12.8659932,70 16,66.8659932 16,63 C16,59.1340068 12.8659932,56 9,56 C5.13400675,56 2,59.1340068 2,63 C2,66.8659932 5.13400675,70 9,70 Z M9,72 C4.02943725,72 0,67.9705627 0,63 C0,58.0294373 4.02943725,54 9,54 C13.9705627,54 18,58.0294373 18,63 C18,67.9705627 13.9705627,72 9,72 Z" id="Oval-9" fill="#35495E" fill-rule="nonzero"></path>
+                    <circle id="Oval-9" fill="#35495E" cx="9" cy="63" r="4"></circle>
+                    <path d="M9.00003248,5.81286951 L2.48116021,1.85492883 C2.00908177,1.56830587 1.85873723,0.953251644 2.14535628,0.481166768 C2.43197534,0.00908189073 3.04702118,-0.141264698 3.51909962,0.145358263 L10.5189859,4.39534717 C10.8176414,4.5766762 11,4.90073618 11,5.25013246 L11,55.0000026 C11,55.5522859 10.552292,56 10.0000162,56 C9.44774046,56 9.00003248,55.5522859 9.00003248,55.0000026 L9.00003248,5.81286951 Z" id="Path-2" fill="#35495E" fill-rule="nonzero"></path>
+                    <rect id="Rectangle-13" fill="#35495E" x="17" y="30" width="32" height="25" rx="2"></rect>
+                    <rect id="Rectangle-13" fill="#FFFFFF" x="21" y="45" width="21" height="2" rx="1"></rect>
+                    <rect id="Rectangle-13" fill="#FFFFFF" x="21" y="41" width="13" height="2" rx="1"></rect>
+                    <rect id="Rectangle-13" fill="url(#linearGradient-1)" x="17" y="10" width="21" height="16" rx="2"></rect>
+                    <path d="M35.1818185,51.1326339 L32.2551329,47.7297287 C31.9063687,47.3242149 31.9164267,46.6780399 32.2775982,46.2864566 C32.6387696,45.8948732 33.2142861,45.9061661 33.5630503,46.31168 L36.744868,50.0112313 C36.9085298,50.2015236 37,50.4557238 37,50.7202557 L37,81.9792966 C37,82.5430155 36.5929862,83 36.0909092,83 C35.5888323,83 35.1818185,82.5430155 35.1818185,81.9792966 L35.1818185,51.1326339 Z" id="Path-2" fill="#35495E" fill-rule="nonzero" transform="translate(34.500000, 64.500000) rotate(90.000000) translate(-34.500000, -64.500000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
