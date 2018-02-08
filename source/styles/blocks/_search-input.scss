@@ -1,5 +1,6 @@
 .search {
   position: relative;
+  display: none;
   width: 520px;
   margin: 0 auto;
   background-color: $c-white;
@@ -39,5 +40,11 @@
     outline: none;
     display: flex;
     cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 981px) {
+  .search {
+    display: block;
   }
 }

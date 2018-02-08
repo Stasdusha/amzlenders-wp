@@ -48,3 +48,29 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .article {
+    &__header {
+      font-size: 20px;
+      line-height: 24px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+
+    &__social {
+      margin-bottom: 20px;
+    }
+
+    &__text {
+      font-size: 14px;
+      line-height: 20px;
+      margin-bottom: 50px;
+    }
+
+    &__answer {
+      font-size: 16px;
+      margin-bottom: 50px;
+    }
+  }
+}

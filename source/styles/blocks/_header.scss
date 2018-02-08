@@ -31,6 +31,7 @@
     height: 24px;
     width: 1px;
     background-color: #F8981D;
+    display: none;
   }
 
   &__capture {
@@ -38,6 +39,7 @@
       font-size: 18px;
       font-weight: 600;
       line-height: 24px;
+      display: none;
   }
 
   &__nav {
@@ -55,7 +57,6 @@
       ~ .header__nav {
         display: block;
         flex-basis: 100%;
-        margin-bottom: 30px;
         padding-top: 24px;
         padding-left: 4px;
       }
@@ -63,7 +64,9 @@
       ~ .header__action {
         display: block;
         margin-bottom: 8px;
+        margin-top: 30px;
         padding-left: 4px;
+
       }
 
     }
@@ -83,6 +86,14 @@
       top: 50%;
       left: 16px;
       transform: translateY(-50%);
+    }
+
+    &__delimiter {
+      display: block;
+    }
+
+    &__capture {
+      display: block;
     }
 
     &__hamburger {
