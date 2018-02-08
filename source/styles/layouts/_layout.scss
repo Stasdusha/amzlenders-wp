@@ -12,6 +12,21 @@
   }
 }
 
+.l-support {
+  & .page-section {
+    padding-top: 4vw;
+    padding-bottom: 3vw;
+  }
+
+  & .page-section__title {
+    margin-bottom: 49px;
+  }
+
+  & .presenter--vertical {
+    flex-basis: 18%;
+  }
+}
+
 .l-about {
   &.page-section {
     padding-right: 15vw;

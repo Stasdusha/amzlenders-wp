@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="34px" viewBox="0 0 46 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>image / chat_big</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="chat_big">
+            <g id="Group-11" transform="translate(0.000000, 1.000000)">
+                <path d="M15,2.88657986e-15 L42,2.88657986e-15 L42,2.66453526e-15 C43.1045695,4.99519548e-16 44,0.8954305 44,2 L44,20 L44,20 C44,21.1045695 43.1045695,22 42,22 L36,22 L36,26 L31,22 L15,22 L15,22 C13.8954305,22 13,21.1045695 13,20 L13,2 L13,2 C13,0.8954305 13.8954305,3.31153059e-15 15,3.10862447e-15 Z" id="Rectangle-9" stroke="#35495E" stroke-width="2"></path>
+                <path d="M19,6 L34,6 L34,6 C35.1045695,6 36,6.8954305 36,8 L36,8 L36,8 C36,9.1045695 35.1045695,10 34,10 L19,10 L19,10 C17.8954305,10 17,9.1045695 17,8 L17,8 L17,8 C17,6.8954305 17.8954305,6 19,6 Z" id="Rectangle-path" fill="#F8981D" fill-rule="nonzero"></path>
+                <path d="M19,12 L24,12 L24,12 C25.1045695,12 26,12.8954305 26,14 L26,14 L26,14 C26,15.1045695 25.1045695,16 24,16 L19,16 L19,16 C17.8954305,16 17,15.1045695 17,14 L17,14 L17,14 C17,12.8954305 17.8954305,12 19,12 Z" id="Rectangle-path" fill="#F8981D" fill-rule="nonzero"></path>
+                <path d="M2,14 L10,14 L10,20 L10,20 C10,22.7614237 12.2385763,25 15,25 L20,25 L20,27 L20,27 C20,28.1045695 19.1045695,29 18,29 L11,29 L6,33 L6,29 L2,29 L2,29 C0.8954305,29 1.3527075e-16,28.1045695 0,27 L0,16 L0,16 C-1.3527075e-16,14.8954305 0.8954305,14 2,14 Z" id="Rectangle-9" fill="#35495E"></path>
+            </g>
+        </g>
+    </g>
+</svg>

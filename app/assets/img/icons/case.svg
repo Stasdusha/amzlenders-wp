@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="31px" viewBox="0 0 34 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>image / case</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="support-overview" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-256.000000, -996.000000)">
+        <g id="Group" transform="translate(255.000000, 996.000000)">
+            <g id="1" transform="translate(1.000000, 0.000000)">
+                <g id="noun_1015012_cc">
+                    <rect id="Rectangle" stroke="#35495E" stroke-width="2" x="1" y="6" width="32" height="24" rx="4"></rect>
+                    <rect id="Rectangle" stroke="#35495E" stroke-width="2" x="11" y="1" width="13" height="9" rx="4"></rect>
+                    <path d="M4,5 L30,5 C32.209139,5 34,6.790861 34,9 L34,18 L0,18 L0,9 C-2.705415e-16,6.790861 1.790861,5 4,5 Z" id="Combined-Shape" fill="#35495E"></path>
+                    <rect id="Rectangle-17" fill="#F8981D" x="10" y="14" width="14" height="8" rx="2"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
