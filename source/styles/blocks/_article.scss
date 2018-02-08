@@ -1,0 +1,50 @@
+.article {
+  max-width: 570px;
+
+  &__header {
+    color: $c-primary;
+    font-size: 33px;
+    font-weight: bold;
+    line-height: 43px;
+    margin-bottom: 30px;
+  }
+
+  &__social {
+    margin-bottom: 40px;
+
+    & .social-icon{
+      width: 30px;
+      height: 30px;
+      margin-right: 6px;
+    }
+  }
+
+  &__text {
+    color: $c-primary-light;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 40px;
+  }
+
+  &__answer {
+    color: $c-primary;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    margin-bottom: 80px;
+  }
+
+  &__confirm {
+    margin-top: 7px;
+    display: flex;
+  }
+
+  &__button {
+    padding-left: 27px;
+    padding-right: 27px;
+
+    &:first-child{
+      margin-right: 10px;
+    }
+  }
+}

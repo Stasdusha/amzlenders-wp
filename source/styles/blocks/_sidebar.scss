@@ -1,0 +1,54 @@
+.sidebar {
+  &__header {
+    color: #8696A8;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 32px;
+    margin-bottom: 24px;
+    margin-top: 10px;
+  }
+
+  &__categories {
+    margin-bottom: 30px;
+  }
+
+  &__category {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    margin-bottom: 28px;
+    margin-left: 5px;
+  }
+
+  &__img {
+    margin-right: 20px;
+    width: 30px;
+  }
+
+  &__category-name {
+    color: $c-primary;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 29px;
+  }
+
+  &__contact {
+    min-height: 256px;
+    padding: 20px;
+    width: 172px;
+    background-color: #FAFCFF;
+    color: #233242;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  &__link {
+    text-decoration: none;
+  }
+
+  &__button {
+    width: 100%;
+    text-align: center;
+    margin-top: 18px;
+  }
+}
