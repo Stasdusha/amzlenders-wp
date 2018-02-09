@@ -45,6 +45,10 @@
     font-size: 18px;
     line-height: 28px;
 
+    &:hover {
+      text-decoration: underline;
+    }
+
     &:not(:last-child){
       margin-bottom: 16px;
     }

@@ -18,6 +18,10 @@
     align-items: center;
     margin-bottom: 28px;
     margin-left: 5px;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   &__img {
@@ -30,6 +34,7 @@
     font-size: 18px;
     font-weight: 600;
     line-height: 29px;
+
   }
 
   &__contact {
