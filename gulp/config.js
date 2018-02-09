@@ -3,7 +3,8 @@ module.exports = {
     root: './source/',
     views: './source/views/',
     scss: './source/styles/**/*.scss',
-    js: './source/js/',
+    js: './source/js/src/*.js',
+    jsVendor: './source/js/vendor/*.js',
     img: './source/img/**/*.*',
     helpers: './gulp/helpers/'
   },
@@ -11,12 +12,13 @@ module.exports = {
     root: './app/',
     css: './app/assets/css/',
     img: './app/assets/img/',
+    js: './app/assets/js',
     fonts: './app/assets/fonts/'
   },
   watch: {
     views: './source/views/**/*.*',
     scss: './source/styles/**/*.*',
-    js: './app/assets/js/**/*',
+    js: './source/js/**/*',
     img: './app/assets/img/**/*'
   }
 };

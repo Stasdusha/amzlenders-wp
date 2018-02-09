@@ -6,13 +6,18 @@
   background-color: $c-white;
   border-radius: 4px;
   overflow: hidden;
+  display: none;
+
+  &--hero {
+    width: 570px;
+    display: block;
+  }
 
   input::-webkit-input-placeholder {
     color: #CFCFCF;
   }
   input:-moz-placeholder {
     color: #CFCFCF;
-
   }
   input:-ms-input-placeholder {
     color: #CFCFCF;
@@ -27,6 +32,12 @@
     border: none;
     outline: none;
     background: transparent;
+
+    &--hero {
+      height: 50px;
+      font-size: 20px;
+      line-height: 50px;
+    }
   }
 
   &__button {
@@ -40,11 +51,15 @@
     outline: none;
     display: flex;
     cursor: pointer;
+
+    &--hero {
+      height: 50px;
+    }
   }
 }
 
-@media screen and (min-width: 981px) {
-  .search {
-    display: block;
-  }
-}
+// @media screen and (min-width: 981px) {
+//   .search {
+//     display: block;
+//   }
+// }
