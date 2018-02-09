@@ -17,6 +17,7 @@
     "browser-sync": "^2.23.5",
     "cssnano": "^3.10.0",
     "devbridge-styleguide": "^0.4.17",
+    "express": "^4.16.2",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.1.0",
     "gulp-cheerio": "^0.6.3",
@@ -62,5 +63,6 @@
     "stylelint-selector-bem-pattern": "^2.0.0",
     "sugarss": "^1.0.1",
     "vinyl-buffer": "^1.0.1"
-  }
+  },
+  "dependencies": {}
 }
