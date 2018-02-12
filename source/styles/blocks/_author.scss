@@ -1,0 +1,21 @@
+.author {
+  display: flex;
+
+  &__image {
+    height: 36px;
+    width: 36px;
+    margin-right: 13px;
+  }
+
+  &__name {
+    color: #35495E;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  &__date {
+    color: #8696A8;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

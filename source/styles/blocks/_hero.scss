@@ -43,6 +43,28 @@
     font-size: calc(4vw + 10px);
     font-weight: bold;
     line-height: 1.25;
+
+    &--blog {
+      margin-bottom: 2px;
+    }
+  }
+
+  &__input {
+    height: 44px;
+    width: 360px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    color: #B3B3B3;
+    padding-left: 15px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 23px;
+    text-transform: uppercase;
+    margin-right: 10px;
   }
 
   &__subtitle {
@@ -50,6 +72,10 @@
     font-size: calc(1.25vw + 8px);
     font-weight: 500;
     line-height: 1.5;
+
+    &--blog {
+      margin-bottom: 40px;
+    }
   }
 
   &__socials {
@@ -91,6 +117,12 @@
 .is-support {
   &::before {
     background-image: url(/assets/img/hero_support.png);
+  }
+}
+
+.is-blog {
+  &::before {
+    background-image: url(/assets/img/hero_blog.png);
   }
 }
 

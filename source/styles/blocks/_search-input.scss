@@ -52,6 +52,14 @@
     display: flex;
     cursor: pointer;
 
+    &--mobile {
+      position: static;
+      margin-right: 20px;
+      margin-left: auto;
+      background: inherit;
+      display: none;
+    }
+
     &--hero {
       height: 50px;
     }
@@ -61,5 +69,11 @@
 @media screen and (max-width: 768px) {
   .search {
     display: none;
+
+    &__button {
+      &--mobile {
+        display: block;
+      }
+    }
   }
 }

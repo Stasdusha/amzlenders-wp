@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="29px" viewBox="0 0 31 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>chart</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="In-process" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="blog" transform="translate(-1008.000000, -869.000000)">
+            <g id="Group-8" transform="translate(975.000000, 636.000000)">
+                <g id="chart" transform="translate(30.000000, 227.000000)">
+                    <g id="Group" transform="translate(3.000000, 6.000000)">
+                        <path d="M24,12 L29,12 L29,12 C30.1045695,12 31,12.8954305 31,14 L31,29 L22,29 L22,14 L22,14 C22,12.8954305 22.8954305,12 24,12 Z" id="Rectangle-8" fill="#35495E"></path>
+                        <path d="M1,28 L8,28 L8,20 C8,19.4477153 7.55228475,19 7,19 L2,19 C1.44771525,19 1,19.4477153 1,20 L1,28 Z" id="Rectangle-8" stroke="#35495E" stroke-width="2"></path>
+                        <path d="M13,0 L18,0 L18,-4.4408921e-16 C19.1045695,-6.46995335e-16 20,0.8954305 20,2 L20,29 L11,29 L11,2 L11,2 C11,0.8954305 11.8954305,2.02906125e-16 13,0 Z" id="Rectangle-8-Copy" fill="#FF9800"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

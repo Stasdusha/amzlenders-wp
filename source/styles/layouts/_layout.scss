@@ -42,6 +42,18 @@
   }
 }
 
+.l-blog {
+  &.page-section {
+    padding: 80px 135px;
+  }
+}
+
+.l-article {
+  &.page-section {
+    padding: 128px 165px 100px 255px;
+  }
+}
+
 .l-about {
   &.page-section {
     padding-right: 15vw;

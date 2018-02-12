@@ -1,0 +1,45 @@
+.pagination {
+  display: flex;
+  margin: 0 auto;
+  max-width: max-content;
+
+  &__item {
+    box-sizing: border-box;
+    height: 36px;
+    width: 36px;
+    border-radius: 6px;
+    color: #35495E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: 0 2px;
+
+    &:hover {
+      border: 1px solid #35495E;
+    }
+
+    &--nav {
+      border: 1px solid rgba(53, 73, 94, 0.3);
+      font-size: 38px;
+
+      &:first-child {
+        margin-right: 2px;
+      }
+
+      &:last-child {
+        margin-left: 2px;
+      }
+    }
+
+    &--active {
+      color: #fff;
+      background-color: #91B832;
+      cursor: default;
+
+      &:hover {
+        border: none;
+      }
+    }
+  }
+}
