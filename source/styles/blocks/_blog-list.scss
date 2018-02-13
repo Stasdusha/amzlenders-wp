@@ -3,5 +3,36 @@
 
   &__item {
     margin-bottom: 100px;
+
+    &--mobile {
+      display: none;
+    }
+  }
+
+}
+
+@media screen and (max-width: 1280px) {
+  .blog-list {
+    max-width: none;
+
+    &__item {
+      &--mobile {
+        display: block;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .blog-list {
+    &__item {
+      margin-bottom: 50px;
+
+      &--mobile {
+        display: block;
+        margin-left: -20px;
+        margin-right: -20px;
+      }
+    }
   }
 }

@@ -46,11 +46,35 @@
   &.page-section {
     padding: 80px 135px;
   }
+
+  @media screen and (max-width: 1280px) {
+    &.page-section {
+      padding: 100px 120px;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    &.page-section {
+      padding: 40px 20px 50px;
+    }
+  }
 }
 
 .l-article {
   &.page-section {
     padding: 128px 165px 100px 255px;
+  }
+
+  @media screen and (max-width: 1280px) {
+    &.page-section {
+      padding: 100px 120px;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    &.page-section {
+      padding: 88px 20px 30px 20px;
+    }
   }
 }
 
@@ -73,5 +97,4 @@
   //  padding-top: 100px;
   //  padding-bottom: 100px;
   //}
-
 }

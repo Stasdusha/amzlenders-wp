@@ -1,0 +1,24 @@
+.input {
+  height: 44px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: $c-white;
+  color: $c-primary;
+  padding-left: 15px;
+  outline: none;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 23px;
+  text-transform: uppercase;
+
+  &::-webkit-input-placeholder {
+    color: $c-gray;
+  }
+  &:-moz-placeholder {
+    color: $c-gray;
+  }
+  &:-ms-input-placeholder {
+    color: $c-gray;
+  }
+}

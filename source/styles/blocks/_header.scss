@@ -30,12 +30,12 @@
     margin: 0 12px 0 12px;
     height: 24px;
     width: 1px;
-    background-color: #F8981D;
+    background-color: $c-secondary;
     display: none;
   }
 
   &__capture {
-      color: #F8981D;
+      color: $c-secondary;
       font-size: 18px;
       font-weight: 600;
       line-height: 24px;
@@ -45,6 +45,7 @@
 
   &__nav {
     display: none;
+    letter-spacing: 1px;
   }
 
   &__action {
@@ -77,6 +78,14 @@
     display: block;
     width: 16px;
     height: 16px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .header {
+    &__nav {
+      letter-spacing: 0.5px;
+    }
   }
 }
 

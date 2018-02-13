@@ -50,21 +50,9 @@
   }
 
   &__input {
-    height: 44px;
     width: 360px;
-    border-radius: 4px;
-    box-sizing: border-box;
-    background-color: #FFFFFF;
-    color: #B3B3B3;
-    padding-left: 15px;
-    border: none;
-    outline: none;
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    line-height: 23px;
-    text-transform: uppercase;
     margin-right: 10px;
+    border: none;
   }
 
   &__subtitle {
@@ -171,6 +159,10 @@
     }
   }
 
+  .is-blog {
+    padding-bottom: 35vh;
+  }
+
   .is-home {
     padding-bottom: 44%;
 
@@ -178,6 +170,21 @@
       background-image: url(/assets/img/hero_home.png);
     }
   }
+}
 
+@media screen and (max-width: 767px) {
+  .hero {
+    &__input {
+      width: 100%;
+      margin-bottom: 10px;
 
+      & ~ a{
+        width: 100%;
+      }
+    }
+  }
+
+  .is-blog {
+    padding-bottom: 366px;
+  }
 }

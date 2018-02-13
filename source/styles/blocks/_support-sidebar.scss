@@ -1,6 +1,6 @@
 .support-sidebar {
   &__header {
-    color: #8696A8;
+    color: $c-primary-gray;
     font-size: 20px;
     font-weight: bold;
     line-height: 32px;
@@ -21,7 +21,7 @@
 
     &:hover {
       .sidebar__category-name {
-        color: #F8981D;
+        color: $c-secondary;
       }
     }
   }
@@ -47,8 +47,8 @@
     align-items: center;
     padding: 20px;
     width: 172px;
-    background-color: #FAFCFF;
-    color: #233242;
+    background-color: $c-bone;
+    color: $c-primary-dark;
     font-size: 16px;
     line-height: 24px;
   }

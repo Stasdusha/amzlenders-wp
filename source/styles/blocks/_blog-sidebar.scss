@@ -4,13 +4,20 @@
   &__finance {
     min-height: 365px;
     padding: 30px;
-    background-color: #FAFCFF;
+    background-color: $c-bone;
     box-sizing: border-box;
     margin-bottom: 20px;
   }
 
+  &__subscribe {
+    min-height: 298px;
+    padding: 30px;
+    background-color: $c-bone;
+    box-sizing: border-box;
+  }
+
   &__header {
-    color: #35495E;
+    color: $c-primary;
     font-size: 20px;
     font-weight: bold;
     line-height: 28px;
@@ -29,8 +36,19 @@
     margin-right: 18px;
   }
 
+  &__input {
+    width: 100%;
+    border: 1px solid #E8E8E8;
+    border-radius: 4px;
+    margin-bottom: 10px;
+
+    &:first-child{
+      margin-bottom: 20px;
+    }
+  }
+
   &__name {
-    color: #35495E;
+    color: $c-primary;
     font-size: 16px;
     font-weight: 500;
     line-height: 22px;
@@ -50,5 +68,99 @@
     max-width: 330px;
     padding: 30px;
     background-image: url(/assets/img/get-it.png);
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .blog-sidebar {
+    max-width: none;
+    width: 100%;
+
+    &__finance {
+      padding: 30px 20px;
+    }
+
+    &__header {
+      text-align: center;
+      display: block;
+      width: 60%;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    &__inner {
+      max-width: 50%;
+      margin: 0 auto;
+    }
+
+    &__input {
+      width: 50%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    &__subscribe {
+      padding: 30px 20px;
+      background-color: inherit;
+      box-sizing: border-box;
+    }
+
+    &--desktop {
+      display: none;
+    }
+
+    &__get-it {
+      max-width: none;
+      background-size: cover;
+      min-height: 586px;
+    }
+
+    &__button {
+      display: block;
+      width: 50%;
+      margin: 0 auto;
+      margin-top: auto;
+    }
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .blog-sidebar {
+    max-width: none;
+    margin-left: -20px;
+    margin-right: -20px;
+
+    &__header {
+      width: 100%;
+    }
+
+    &__inner {
+      max-width: none;
+      margin: 0;
+    }
+
+    &__finance {
+      padding: 30px 20px;
+    }
+
+    &__get-it {
+      min-height: 280px;
+    }
+
+    &__input {
+      width: 100%;
+    }
+
+    &__button {
+      width: 100%;
+    }
+
+    &__subscribe {
+      padding: 30px 20px;
+      background-color: inherit;
+      box-sizing: border-box;
+    }
   }
 }
